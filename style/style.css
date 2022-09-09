@@ -1,0 +1,55 @@
+
+/*--------------carrusel-----------*/
+
+.carousel-item {
+    height: 90rem;
+}
+
+/*----------------galeria------------*/
+
+#galeria .col-gl-4{
+    padding: 0;
+    padding: 25%;
+    
+}
+
+
+#galeria img:hover {
+    border: 5px solid#f7f7f7 
+    
+}
+
+
+
+
+#galeria img{
+    width: 100%;
+    height: 500px;
+    padding: 4px;
+    object-fit: cover;
+  
+
+}
+
+/*--------------colores---------------------------*/
+
+.galeria img {
+    padding: 5%;
+    width: 90%
+
+}
+
+
+.clearfix1 img{
+   text-justify: auto;
+   padding: 2%;
+    width: 650px;
+    height: 530px
+    
+}
+
+.container label{
+    
+        font-size: 15px;
+   
+}

@@ -1,0 +1,23 @@
+{
+  "name": "castrodiego.sass.bootstrap.html",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castro-Diego/bootstrap.html.git"
+  },
+  "author": "castro diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Castro-Diego/bootstrap.html/issues"
+  },
+  "homepage": "https://github.com/Castro-Diego/bootstrap.html#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "node-sass": "^7.0.1"
+  }
+}
