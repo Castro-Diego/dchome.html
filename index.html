@@ -4,50 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css ">
+    <link rel="stylesheet" href="./style/style.css">
+   
     <title>Dchomerecubrimiento</title>
 
     <!-------------boostrap---------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
    <!--------------iconos---------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
 
-   
+
+    <link rel="stylesheet" href="mobile.css.media=screen and (max-width:640px)">
+    <link rel="stylesheet" href="tablet.css.media=screen and (min-width:640px) and (max-width:1280px)">
+    <link rel="stylesheet" href="desktop.css.media=sreeen and (max-width:1280px)">
 
 </head>
+
 <body>
-    
+ <!---------------------------whatssap--------------------------------------------> 
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <a href="https://wa.link/wie539" class="float" target="_blank">
+ <i class="fa fa-whatsapp my-float"></i>
+ </a>
+ 
+
    
 <!---------------barra de navegacion------------------------------------->
 <HEader>
     
-     <nav class="navbar-align-items-center p-4 h5 m-auto" style="background-color: #414142;">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a><img src="./img/lgotipo2.png.png" width="40rem" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/productos.html">productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/colores.html">colores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/texturas.html">texturas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/quienessomos.html">somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contactos.html">contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white " href="./pages/colores.html">Colores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./pages/texturas.html">Texturas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="./pages/quienessomos.html">Quienes somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./pages/contactos.html">ontactos</a>
-              </li>
 
-          </ul>
-
-        </nav>
 <!--------------------portada-------------------------------------->   
     <div class="container-fluid bg-dark p-5">
         
         <div class="container text-white">
-            <h1 class="display-1"><b class="h-100">Dchome</b></h1>
+            <h1 class="animated bounce delay-2s display-1">Dchome</h1>
             <P class="h4">¡No solo vendemos un producto, sino que llevamos tendecia a las paredes de tu hogar! </P>
         </div>
 
@@ -142,27 +165,28 @@
 <!----------------productos colores------------------------------>
 
 <main>
-    <section>
+    <section class="contenedor-producto">
         <h4 class="text-center m-5 h1">Colores destacados</h4>
         <article class="row m-5 rounded float-right text-center">
             
-            <div class="col-xl-4 col-md-4 col-sm-12 text-center">
+            <div class="col-xl-4 col-md-4 col-sm-12">
                 <div class="card" style="width: 22rem;">
                     <img src="./img/cafe.png.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title h3">Revestimiento texturado</h5>
                       <p class="card-text h5">Balde x 30 kg aplicacion a llana</p>
-                      <a href="#" class="btn btn-primary p-3">+info</a>
+                      <a href="./pages/contactos.html" class="btn btn-primary p-3">+info</a>
                     </div>
                   </div>
             </div>
+
             <div class="col-xl-4 col.md-4 col-sm-12">
                 <div class="card" style="width: 22rem;">
                 <img src="./img/gris.png.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title h3">Revestimeinto texturado</h5>
                   <p class="card-text h5">Balde x 30kg aplicacion a llana</p>
-                  <a href="#" class="btn btn-primary p-3">+info</a>
+                  <a href="./pages/contactos.html" class="btn btn-primary p-3">+info</a>
                 </div>
               </div>
 
@@ -173,7 +197,7 @@
                 <div class="card-body">
                   <h5 class="card-title h3">Revestimiento texturado</h5>
                   <p class="card-text h5">Balde x 30kg aplicacion a llana</p>
-                  <a href="#" class="btn btn-primary p-3">+info</a>
+                  <a href="./pages/contactos.html" class="btn btn-primary p-3">+info</a>
                 </div>
               </div>
 
@@ -249,13 +273,13 @@
                 <a href="#" class="text-dark" style="text-decoration:none">PRODUCTO</a>
               </p>
               <p>
-                <a href="#" class="text-dark" style="text-decoration:none">COLORES</a>
+                <a href="./pages/colores.html" class="text-dark" style="text-decoration:none">COLORES</a>
               </p>
               <p>
-                <a href="#" class="text-dark" style="text-decoration:none">TEXTURAS</a>
+                <a href="./pages/texturas.html" class="text-dark" style="text-decoration:none">TEXTURAS</a>
               </p>
               <p>
-                <a href="#" class="text-dark" style="text-decoration:none">TENDENCIA</a>
+                <a href="https://www.google.com/search?q=dchome&rlz=1C1ALOY_esAR1020AR1020&sxsrf=ALiCzsaajpD5oqMVWR3lE6mc5Y3aKpfYVQ:1662991322308&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiahp-4tY_6AhVbtpUCHZnzBBAQ_AUoAnoECAEQBA&biw=1366&bih=663&dpr=1#imgrc=uhGGv43wLpGezM " class="text-dark" style="text-decoration:none">TENDENCIA</a>
               </p>
               </div>
 
@@ -263,13 +287,13 @@
               <h5 class="text-uppercase mb-4 font-whight-bold text-info">REDES SOCIALES</h5>
                 <hr class="mb-4">
                 <p>
-                  <a href="#" class="text-dark" style="text-decoration:none">INSTAGRAM</a>
+                  <a href="https://www.instagram.com/dchomerecubrimiento/?hl=es" class="text-dark" style="text-decoration:none">INSTAGRAM</a>
                 </p>
                 <p>
-                  <a href="#" class="text-dark" style="text-decoration:none">FACEBOOCK</a>
+                  <a href="https://www.facebook.com/Dc-home-101420845573217/" class="text-dark" style="text-decoration:none">FACEBOOCK</a>
                 </p>
                 <p>
-                  <a href="#" class="text-dark" style="text-decoration:none">YOUTUBE</a>
+                  <a href="https://ne-np.facebook.com/Dc-home-101420845573217/videos/consultanos-tenemos-muchas-opciones-en-color-y-textura-para-tu-obra-sumate-a-lo-/424461095854303/" class="text-dark" style="text-decoration:none">YOUTUBE</a>
                 </p>
                 <p>
                   <a href="#" class="text-dark" style="text-decoration:none">TWITTER</a>
@@ -294,6 +318,10 @@
 
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr.js"></script>
+    <!-- Load the plugin -->
+    <script src="js/jquery.animateSlider.js"></script>
  </body>
 </html>
 

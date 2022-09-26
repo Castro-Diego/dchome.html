@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Castro-Diego/bootstrap.html#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
     "node-sass": "^7.0.1"
   }
